@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324D5B052C0EEE5900FBBA12 /* watch2iphone2macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */; };
+		324D5B072C0EEE5900FBBA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B062C0EEE5900FBBA12 /* ContentView.swift */; };
+		324D5B092C0EEE5A00FBBA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */; };
+		324D5B0C2C0EEE5A00FBBA12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B0B2C0EEE5A00FBBA12 /* Preview Assets.xcassets */; };
+		324D5B122C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		324D5B172C0EEE5A00FBBA12 /* watch2iphone2macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */; };
+		324D5B192C0EEE5A00FBBA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B182C0EEE5A00FBBA12 /* ContentView.swift */; };
+		324D5B1B2C0EEE5B00FBBA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */; };
+		324D5B1E2C0EEE5B00FBBA12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B1D2C0EEE5B00FBBA12 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324D5B132C0EEE5A00FBBA12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324D5AF92C0EEE5900FBBA12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324D5B102C0EEE5A00FBBA12;
+			remoteInfo = "watch2iphone2mac Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		324D5B242C0EEE5B00FBBA12 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				324D5B122C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		324D5B012C0EEE5900FBBA12 /* watch2iphone2mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch2iphone2mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch2iphone2macApp.swift; sourceTree = "<group>"; };
+		324D5B062C0EEE5900FBBA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324D5B0B2C0EEE5A00FBBA12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch2iphone2mac Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch2iphone2macApp.swift; sourceTree = "<group>"; };
+		324D5B182C0EEE5A00FBBA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324D5B1D2C0EEE5B00FBBA12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324D5AFE2C0EEE5900FBBA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324D5B0E2C0EEE5A00FBBA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324D5AF82C0EEE5900FBBA12 = {
+			isa = PBXGroup;
+			children = (
+				324D5B032C0EEE5900FBBA12 /* watch2iphone2mac */,
+				324D5B152C0EEE5A00FBBA12 /* watch2iphone2mac Watch App */,
+				324D5B022C0EEE5900FBBA12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324D5B022C0EEE5900FBBA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324D5B012C0EEE5900FBBA12 /* watch2iphone2mac.app */,
+				324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324D5B032C0EEE5900FBBA12 /* watch2iphone2mac */ = {
+			isa = PBXGroup;
+			children = (
+				324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */,
+				324D5B062C0EEE5900FBBA12 /* ContentView.swift */,
+				324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */,
+				324D5B0A2C0EEE5A00FBBA12 /* Preview Content */,
+			);
+			path = watch2iphone2mac;
+			sourceTree = "<group>";
+		};
+		324D5B0A2C0EEE5A00FBBA12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				324D5B0B2C0EEE5A00FBBA12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		324D5B152C0EEE5A00FBBA12 /* watch2iphone2mac Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */,
+				324D5B182C0EEE5A00FBBA12 /* ContentView.swift */,
+				324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */,
+				324D5B1C2C0EEE5B00FBBA12 /* Preview Content */,
+			);
+			path = "watch2iphone2mac Watch App";
+			sourceTree = "<group>";
+		};
+		324D5B1C2C0EEE5B00FBBA12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				324D5B1D2C0EEE5B00FBBA12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324D5B002C0EEE5900FBBA12 /* watch2iphone2mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324D5B252C0EEE5B00FBBA12 /* Build configuration list for PBXNativeTarget "watch2iphone2mac" */;
+			buildPhases = (
+				324D5AFD2C0EEE5900FBBA12 /* Sources */,
+				324D5AFE2C0EEE5900FBBA12 /* Frameworks */,
+				324D5AFF2C0EEE5900FBBA12 /* Resources */,
+				324D5B242C0EEE5B00FBBA12 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324D5B142C0EEE5A00FBBA12 /* PBXTargetDependency */,
+			);
+			name = watch2iphone2mac;
+			productName = watch2iphone2mac;
+			productReference = 324D5B012C0EEE5900FBBA12 /* watch2iphone2mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		324D5B102C0EEE5A00FBBA12 /* watch2iphone2mac Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324D5B212C0EEE5B00FBBA12 /* Build configuration list for PBXNativeTarget "watch2iphone2mac Watch App" */;
+			buildPhases = (
+				324D5B0D2C0EEE5A00FBBA12 /* Sources */,
+				324D5B0E2C0EEE5A00FBBA12 /* Frameworks */,
+				324D5B0F2C0EEE5A00FBBA12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch2iphone2mac Watch App";
+			productName = "watch2iphone2mac Watch App";
+			productReference = 324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324D5AF92C0EEE5900FBBA12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					324D5B002C0EEE5900FBBA12 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					324D5B102C0EEE5A00FBBA12 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 324D5AFC2C0EEE5900FBBA12 /* Build configuration list for PBXProject "watch2iphone2mac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324D5AF82C0EEE5900FBBA12;
+			productRefGroup = 324D5B022C0EEE5900FBBA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324D5B002C0EEE5900FBBA12 /* watch2iphone2mac */,
+				324D5B102C0EEE5A00FBBA12 /* watch2iphone2mac Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324D5AFF2C0EEE5900FBBA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D5B0C2C0EEE5A00FBBA12 /* Preview Assets.xcassets in Resources */,
+				324D5B092C0EEE5A00FBBA12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324D5B0F2C0EEE5A00FBBA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D5B1E2C0EEE5B00FBBA12 /* Preview Assets.xcassets in Resources */,
+				324D5B1B2C0EEE5B00FBBA12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324D5AFD2C0EEE5900FBBA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D5B072C0EEE5900FBBA12 /* ContentView.swift in Sources */,
+				324D5B052C0EEE5900FBBA12 /* watch2iphone2macApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324D5B0D2C0EEE5A00FBBA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D5B192C0EEE5A00FBBA12 /* ContentView.swift in Sources */,
+				324D5B172C0EEE5A00FBBA12 /* watch2iphone2macApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324D5B142C0EEE5A00FBBA12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324D5B102C0EEE5A00FBBA12 /* watch2iphone2mac Watch App */;
+			targetProxy = 324D5B132C0EEE5A00FBBA12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		324D5B1F2C0EEE5B00FBBA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324D5B202C0EEE5B00FBBA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		324D5B222C0EEE5B00FBBA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch2iphone2mac Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H27834PKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watch2iphone2mac;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.2ndr9.watch2iphone2mac;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ndr9.watch2iphone2mac.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		324D5B232C0EEE5B00FBBA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch2iphone2mac Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H27834PKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watch2iphone2mac;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.2ndr9.watch2iphone2mac;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ndr9.watch2iphone2mac.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		324D5B262C0EEE5B00FBBA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch2iphone2mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H27834PKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watch2iphone2mac;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ndr9.watch2iphone2mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324D5B272C0EEE5B00FBBA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch2iphone2mac/Preview Content\"";
+				DEVELOPMENT_TEAM = 6H27834PKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watch2iphone2mac;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ndr9.watch2iphone2mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324D5AFC2C0EEE5900FBBA12 /* Build configuration list for PBXProject "watch2iphone2mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D5B1F2C0EEE5B00FBBA12 /* Debug */,
+				324D5B202C0EEE5B00FBBA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324D5B212C0EEE5B00FBBA12 /* Build configuration list for PBXNativeTarget "watch2iphone2mac Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D5B222C0EEE5B00FBBA12 /* Debug */,
+				324D5B232C0EEE5B00FBBA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324D5B252C0EEE5B00FBBA12 /* Build configuration list for PBXNativeTarget "watch2iphone2mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D5B262C0EEE5B00FBBA12 /* Debug */,
+				324D5B272C0EEE5B00FBBA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324D5AF92C0EEE5900FBBA12 /* Project object */;
+}
