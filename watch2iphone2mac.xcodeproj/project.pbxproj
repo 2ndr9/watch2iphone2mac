@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		324D5B052C0EEE5900FBBA12 /* watch2iphone2macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */; };
-		324D5B072C0EEE5900FBBA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B062C0EEE5900FBBA12 /* ContentView.swift */; };
 		324D5B092C0EEE5A00FBBA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */; };
 		324D5B0C2C0EEE5A00FBBA12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B0B2C0EEE5A00FBBA12 /* Preview Assets.xcassets */; };
 		324D5B122C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		324D5B172C0EEE5A00FBBA12 /* watch2iphone2macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */; };
-		324D5B192C0EEE5A00FBBA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B182C0EEE5A00FBBA12 /* ContentView.swift */; };
 		324D5B1B2C0EEE5B00FBBA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */; };
 		324D5B1E2C0EEE5B00FBBA12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324D5B1D2C0EEE5B00FBBA12 /* Preview Assets.xcassets */; };
+		324D5B292C0EEEE400FBBA12 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B282C0EEEE400FBBA12 /* Connector.swift */; };
+		324D5B2B2C0EF07100FBBA12 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B2A2C0EF07100FBBA12 /* Connector.swift */; };
+		324D5B2F2C0EF20400FBBA12 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D5B2E2C0EF20400FBBA12 /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,15 @@
 /* Begin PBXFileReference section */
 		324D5B012C0EEE5900FBBA12 /* watch2iphone2mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch2iphone2mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch2iphone2macApp.swift; sourceTree = "<group>"; };
-		324D5B062C0EEE5900FBBA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324D5B0B2C0EEE5A00FBBA12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		324D5B112C0EEE5A00FBBA12 /* watch2iphone2mac Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch2iphone2mac Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch2iphone2macApp.swift; sourceTree = "<group>"; };
-		324D5B182C0EEE5A00FBBA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		324D5B1D2C0EEE5B00FBBA12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		324D5B282C0EEEE400FBBA12 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		324D5B2A2C0EF07100FBBA12 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		324D5B2E2C0EF20400FBBA12 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				324D5B042C0EEE5900FBBA12 /* watch2iphone2macApp.swift */,
-				324D5B062C0EEE5900FBBA12 /* ContentView.swift */,
+				324D5B2A2C0EF07100FBBA12 /* Connector.swift */,
+				324D5B2E2C0EF20400FBBA12 /* ActivityViewController.swift */,
 				324D5B082C0EEE5A00FBBA12 /* Assets.xcassets */,
 				324D5B0A2C0EEE5A00FBBA12 /* Preview Content */,
 			);
@@ -114,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				324D5B162C0EEE5A00FBBA12 /* watch2iphone2macApp.swift */,
-				324D5B182C0EEE5A00FBBA12 /* ContentView.swift */,
+				324D5B282C0EEEE400FBBA12 /* Connector.swift */,
 				324D5B1A2C0EEE5B00FBBA12 /* Assets.xcassets */,
 				324D5B1C2C0EEE5B00FBBA12 /* Preview Content */,
 			);
@@ -231,8 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324D5B072C0EEE5900FBBA12 /* ContentView.swift in Sources */,
+				324D5B2B2C0EF07100FBBA12 /* Connector.swift in Sources */,
 				324D5B052C0EEE5900FBBA12 /* watch2iphone2macApp.swift in Sources */,
+				324D5B2F2C0EF20400FBBA12 /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324D5B192C0EEE5A00FBBA12 /* ContentView.swift in Sources */,
+				324D5B292C0EEEE400FBBA12 /* Connector.swift in Sources */,
 				324D5B172C0EEE5A00FBBA12 /* watch2iphone2macApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

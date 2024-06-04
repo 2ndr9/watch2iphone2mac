@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct watch2iphone2macApp: App {
+    @State private var isSheetPresent = false
+    
+    let connector = Connector()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Button("share") {
+                isSheetPresent = true
+            }
+            .sheet(isPresented: $isSheetPresent) {
+                ActivityViewController()
+            }
         }
     }
 }

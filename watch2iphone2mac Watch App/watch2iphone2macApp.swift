@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct watch2iphone2mac_Watch_AppApp: App {
+    let connector = Connector()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Button("send data to iPhone") {
+                connector.send(data: Data("string".utf8))
+            }
         }
     }
 }
